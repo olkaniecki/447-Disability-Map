@@ -771,54 +771,63 @@
   },
   "lot_32": {
     "building_id": "lot_32",
+    "description": "Permit A, Event Parking, Assessible Parking",
     "entrances": [
       "e_117"
     ]
   },
   "lot_01b": {
     "building_id": "lot_01b",
+    "description": "Permit D, Assessible Parking",
     "entrances": [
       "e_118"
     ]
   },
   "lot_03a": {
     "building_id": "lot_03a",
+    "description": "Permit A",
     "entrances": [
       "e_119"
     ]
   },
   "lot_03b": {
     "building_id": "lot_03b",
+    "description": "Permit A",
     "entrances": [
       "e_120"
     ]
   },
   "lot_04": {
     "building_id": "lot_04",
+    "description": "Permit A, Assessible Parking",
     "entrances": [
       "e_121"
     ]
   },
   "lot_23": {
     "building_id": "lot_23",
+    "description": "Permit C, Assessible Parking",
     "entrances": [
       "e_122"
     ]
   },
   "lot_24": {
     "building_id": "lot_24",
+    "description": "Permit D",
     "entrances": [
       "e_123"
     ]
   },
   "lot_29": {
     "building_id": "lot_29",
+    "description": "Permit A",
     "entrances": [
       "e_124"
     ]
   },
   "lot_21": {
     "building_id": "lot_21",
+    "description": "Permit B, Assessible Parking",
     "entrances": [
       "e_125",
       "e_126",
@@ -827,84 +836,98 @@
   },
   "lot_20": {
     "building_id": "lot_20",
+    "description": "Permit B",
     "entrances": [
       "e_128"
     ]
   },
   "lot_06": {
     "building_id": "lot_06",
+    "description": "Permit C, Assessible Parking",
     "entrances": [
       "e_129"
     ]
   },
   "lot_8a": {
     "building_id": "lot_8a",
+    "description": "Permit D, Event Parking, Assessible Parking",
     "entrances": [
       "e_131"
     ]
   },
   "lot_28": {
     "building_id": "lot_28",
+    "description": "Permit D, Assessible Parking",
     "entrances": [
       "e_138"
     ]
   },
   "p_04": {
     "building_id": "p_04",
+    "description": "Permit A",
     "entrances": [
       "e_141"
     ]
   },
   "p_03": {
     "building_id": "p_03",
+    "description": "Permit A",
     "entrances": [
       "e_142"
     ]
   },
   "p_02": {
     "building_id": "p_02",
+    "description": "Permit B",
     "entrances": [
       "e_143"
     ]
   },
   "p_01": {
     "building_id": "p_01",
+    "description": "Permit A",
     "entrances": [
       "e_144"
     ]
   },
   "lot_31": {
     "building_id": "lot_31",
+    "description": "Permit A, D, E, Assessible Parking",
     "entrances": [
       "e_145"
     ]
   },
   "lot_27": {
     "building_id": "lot_27",
+    "description": "Permit B",
     "entrances": [
       "e_146"
     ]
   },
   "lot_25b": {
     "building_id": "lot_25b",
+    "description": "Permit A, C, D, E, Assessible Parking",
     "entrances": [
       "e_147"
     ]
   },
   "lot_25": {
     "building_id": "lot_25",
+    "description": "Permit A, C, D, E, Assessible Parking",
     "entrances": [
       "e_149"
     ]
   },
   "lot_12": {
     "building_id": "lot_12",
+    "description": "Accessible Parking ",
     "entrances": [
       "e_150"
     ]
   },
   "lot_09": {
     "building_id": "lot_09",
+    "description": "Visitor Parking, Assessible Parking",
     "entrances": [
       "e_151",
       "e_152"
@@ -912,6 +935,7 @@
   },
   "lot_01a": {
     "building_id": "lot_01a",
+    "description": "Permit A",
     "entrances": [
       "e_153"
     ]

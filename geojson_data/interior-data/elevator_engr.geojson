@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "elevator_engr",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "id": 1, "floor": 0, "feat_type": "elevator" }, "geometry": { "type": "Point", "coordinates": [ 1190.845130237823923, -865.533691959230055 ] } },
-{ "type": "Feature", "properties": { "id": 2, "floor": 0, "feat_type": "elevator" }, "geometry": { "type": "Point", "coordinates": [ 2241.201868629669661, -873.381936579841522 ] } }
-]
-}
