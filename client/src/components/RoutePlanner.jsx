@@ -124,7 +124,7 @@ export default function RoutePlanner( {onSelectFeature, addFeature, onFeatureCon
                 }
                 onSelectBuilding={handleSelectBuilding}
                 disabledBuilding={step === "end" ? startDestination : null}
-                onFocus={onExpand}
+                //onFocus={onExpand}
                 onBlur={() => {}}
             />
 
