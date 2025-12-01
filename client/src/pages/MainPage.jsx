@@ -3,8 +3,6 @@ import styled, { createGlobalStyle } from 'styled-components';
 import MapView from "../components/MapView";
 import RoutePlanner from "../components/RoutePlanner";
 import FloorplanViewer from "../components/FloorplanViewer";
-import styled, { createGlobalStyle } from "styled-components";
-import React, { useState } from "react";
 
 const GlobalStyle = createGlobalStyle`
   * {
