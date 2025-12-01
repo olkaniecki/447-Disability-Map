@@ -116,3 +116,33 @@ export function findRoute({startBuildingId, endBuildingId,  entrances,  highways
     total_distance: bestPath.weight
   };
 }
+
+export function fixLooseConnections(geojson, tolerance = 3) {
+
+  const features = geojson.features.filter(f =>
+    f.geometry.type === "LineString" || f.geometry.type === "MultiLineString"
+  );
+
+  let endpoints = [];
+
+  features.forEach((f, i) => {
+    const geomType = f.geometry.type;
+    let start, end;
+
+    if (geomType === "MultiLineString") {
+      const firstLine = f.geometry.coordinates[0];
+      const lastLine  = f.geometry.coordinates[f.geometry.coordinates.length - 1];
+      start = firstLine[0];
+      end   = lastLine[lastLine.length - 1];
+    }
+
+    if (geomType === "LineString") {
+      const coords = f.geometry.coordinates;
+      start = coords[0];
+      end   = coords[coords.length - 1];
+    }
+
+    endpoints.push({ pt: start, featureIndex: i, coordIndex: 0 });
+    endpoints.push({ pt: end, featureIndex: i, coordIndex: 1 });
+  });
+}

@@ -86,7 +86,7 @@ const FloorplanButton = styled.button`
     }
 `;
 
-export default function DestinationCard({ label, building, onClear}) {
+export default function DestinationCard({ label, building, onClear, onShowFloorplan}) {
     const metadata = useBuildingMetadata();
     if (!building) return null; // or return a placeholder/loading message
 
@@ -109,7 +109,7 @@ export default function DestinationCard({ label, building, onClear}) {
             <Label>{building.properties.name}</Label> 
             <TextWrapper>
                 <Acronym>{metadata[id]?.acronym}</Acronym>
-                <FloorplanButton type="submit">
+                <FloorplanButton type="button" onClick={() => onShowFloorplan(building)}>
                     <p style={{fontSize: "15px"}}>View Floorplan</p>
                 </FloorplanButton>
             </TextWrapper>
