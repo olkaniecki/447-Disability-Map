@@ -5,6 +5,8 @@ import 'leaflet/dist/leaflet.css';
 import FloorplanNavigator from "./FloorplanNavigator";
 import { blankIcon } from "../utils/leafletIcons";
 
+const basePath = process.env.PUBLIC_URL || "";
+
 export default function FloorplanViewer({ building, onBack }) {
   const id = building.properties.building_id;
   const numericId = id.replace("bldg_", "");
@@ -14,7 +16,7 @@ export default function FloorplanViewer({ building, onBack }) {
 
   const imgWidth = 3400;
   const imgHeight = 2200;
-  const imageSrc = `/assets/floorplans/${numericId}_F${floor}.png`;
+  const imageSrc = `${basePath}/assets/floorplans/${numericId}_F${floor}.png`;
 
   const bounds = [
     [0, 0],           // bottom-left
