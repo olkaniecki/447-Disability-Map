@@ -26,7 +26,7 @@ export default function FloorplanViewer({ building, onBack }) {
 
   useEffect(() => {
     setGeojsonData(null);
-    const geojsonSrc = `/geojson_data/interior-data/${numericId}_F${floor}.geojson`;
+    const geojsonSrc = `${basePath}/geojson_data/interior-data/${numericId}_F${floor}.geojson`;
 
     fetch(geojsonSrc)
       .then(res => res.json())
